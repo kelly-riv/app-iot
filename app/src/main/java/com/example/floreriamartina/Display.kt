@@ -3,9 +3,9 @@ package com.example.floreriamartina
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class login : AppCompatActivity() {
+class Display : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_display)
     }
 }
