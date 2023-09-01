@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEEBB"
+    android:background="#FFFFDD"
     tools:context=".Display">
 
     <TextView
@@ -14,6 +14,9 @@
         android:layout_marginTop="84dp"
         android:text="La Florería de Martina"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#4CAF50"
+        android:textColorHighlight="#4E2727"
+        android:textSize="10pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +27,8 @@
         android:layout_width="60dp"
         android:layout_height="68dp"
         android:layout_marginTop="56dp"
+        app:tint="#648C2C"
+
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

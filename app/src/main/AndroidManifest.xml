@@ -13,10 +13,10 @@
         android:theme="@style/Theme.FloreriaMartina"
         tools:targetApi="31">
         <activity
-            android:name=".display"
+            android:name=".Display"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
