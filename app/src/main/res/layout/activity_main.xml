@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#EE77EE"
+    android:background="#FFEEBB"
     tools:context=".MainActivity">
 
     <TextView
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.228" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_main_comenzar"
         android:layout_width="142dp"
         android:layout_height="56dp"
         android:text="Comenzar"
@@ -42,6 +42,7 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:layout_marginTop="60dp"
+        android:tint="#648C2C"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"

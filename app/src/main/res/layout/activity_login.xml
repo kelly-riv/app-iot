@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEEBB"
     tools:context=".Login">
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txt_input_login_nombre"
         android:layout_width="230dp"
         android:layout_height="63dp"
         android:layout_marginBottom="388dp"
@@ -20,18 +21,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt_login_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="La Florería de Martina"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintBottom_toTopOf="@+id/txt_input_login_nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txt_input_login_password"
         android:layout_width="229dp"
         android:layout_height="66dp"
         android:ems="10"
@@ -40,17 +41,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/txt_input_login_nombre"
         app:layout_constraintVertical_bias="0.125" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_login_iniciarSesion"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:text="Iniciar sesión"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/txt_input_login_password"
         app:layout_constraintVertical_bias="0.238" />
 </androidx.constraintlayout.widget.ConstraintLayout>
